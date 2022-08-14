@@ -2,7 +2,7 @@
   <div class="home">
     <header>
       <div class="logo">Logo</div>
-      <div></div></div>
+      <div></div>
         <nav>
           <ul class="listy">
             <li><router-link to="/">home</router-link></li>
