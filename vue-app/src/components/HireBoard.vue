@@ -3,7 +3,7 @@
     <center>
       <div class="hireboard-shape">
         <div class="board-text1">
-          Transorm your business into the new game, hire and find your jobs
+          Transform your business into the new game, hire and find your jobs
           faster than before.
         </div>
         <div class="board-text2">

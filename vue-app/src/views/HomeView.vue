@@ -39,13 +39,8 @@ export default {
 
 <style scoped>
 header {
-  background: linear-gradient(
-    to right,
-    rgb(121, 17, 196),
-    rgb(93, 4, 156),
-    rgb(121, 17, 196)
-  );
-  color: white;
+  background: white;
+  color: black;
   display: flex;
   justify-content: space-between;
   padding: 30px;
@@ -78,22 +73,29 @@ header {
 }
 .listy > li > a {
   text-decoration: none;
-  color: #fff;
+  color: #000;
 }
 .signup {
-  background: transparent;
+  background: black;
   color: white;
   font-size: 15px;
   font-family: sans-serif;
   border: 0px;
   font-weight: bold;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
   border-radius: 30px;
   margin-right: 60px;
-  border: 2px solid #fff;
+  align-items: center;
+  cursor: pointer;
+}
+.signup:hover {
+  transition: 0.7s ease-in-out;
+  color:#000;
+  background: #fff;
+  border: 2px solid #000;
 }
 
 @media only screen and (max-width: 768px) {
